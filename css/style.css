@@ -1,0 +1,106 @@
+#ifr_carga {display: none;}
+.div_loading {
+    text-align: center;
+}
+.div_loading > img {
+    max-width: 75px;
+}
+.fondoLogin {
+    background-image: url('../images/background.jpg');
+    display: flex;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+.login, .registro {
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #e4e4e4;
+    width: 350px;
+    padding: 15px;
+}
+.login.inactivo, .registro.inactivo {
+    display: none;
+}
+.tiutloLogin {
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#header {
+    padding: 10px 20px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.logoHeader {
+    max-width: 75px;
+    max-height: 75px;
+}
+.userName {
+    margin: 0px 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.fa-power-off, .fa-star {
+    cursor: pointer;
+}
+.secciones {
+    max-height: calc(100vh - 96px);
+    height: 5000px;
+    overflow-y: auto;
+}
+#misArchivos {
+    border-right: 1px solid #e4e4e4;
+    background-image: url('../images/white-background.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tituloSeccion {
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+.btn-link {
+    text-decoration: none;
+}
+.accordion-body {
+    background-color: #f6f6f6;
+}
+.opciones {
+    text-align: center;
+}
+.opciones > * {
+    cursor: pointer;
+    margin: 0px 5px;
+}
+.imgArchivo {
+    max-width: 75px;
+    max-height: 75px;
+    cursor: pointer;
+}
+
+.contentUsers {
+    display: inline-block;
+    position: absolute;
+    border: 1px solid #f4f4f4;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #fff;
+    width: 210px;
+    right: 25px;
+}
+.titleUsers {
+    padding: 10px 15px;
+    border-top: 1px solid #f4f4f4;
+    text-align: center;
+    cursor: pointer;
+}
+.listUsers {
+    padding: 5px 15px;
+}
