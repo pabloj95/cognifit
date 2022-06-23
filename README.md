@@ -1,4 +1,4 @@
-# pruebaCognifit
+# Prueba Cognifit
 > En mi caso, he creado este proyecto usando la aplicación xampp que me provee de base de datos MySql y de php v.8.1.6
 
 > Instrucciones para el uso de la plataforma:
